@@ -11,6 +11,7 @@ Welcome to netcdf-ld-prototype's documentation!
    :caption: Contents:
 
    about
+   install-bald
 
 
 Indices and tables
