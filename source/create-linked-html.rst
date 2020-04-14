@@ -28,6 +28,7 @@ to read which has the URIs integrated as expressed in the alias file used.
 The alias for the netCDF names are based on Climate and Forecast convention terms (http://def.scitools.org.uk/CFTerms) and standard names (http://mmisw.org/ont/cf/parameter/) and on the ACDD convention names as defined by http://def.scitools.org.uk/ACDD. 
 
 .. code-block:: html
+
   <ul>
     <li>:station_name&nbsp;=&nbsp;<a href="https://sios-svalbard.org/node/421" target="_blank">"PYRAMIDEN"</a>&nbsp;;
     </li>
