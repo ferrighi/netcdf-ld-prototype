@@ -25,19 +25,25 @@ your own as in sios.json:
 The result of this is an html file `SN99880.html <https://htmlpreview.github.io/?https://github.com/ferrighi/netcdf-ld-prototype/blob/master/files/SN99880.html>`_, for humans 
 to read which has the URIs integrated as expressed in the alias file used. 
 
-The alias for the netCDF names are based on Climate and Forecast convention terms (http://def.scitools.org.uk/CFTerms) and standard names (http://mmisw.org/ont/cf/parameter/) and on the ACDD convention names as defined by http://def.scitools.org.uk/ACDD. 
+The alias for the netCDF names are based on Climate and Forecast convention terms (http://def.scitools.org.uk/CFTerms) and standard names (http://mmisw.org/ont/cf/parameter/) and on the ACDD convention names as defined by http://def.scitools.org.uk/ACDD. Attributes of the netCDF will look then like:
 
 .. raw:: html
 
     <embed>
-  <ul>
+  <ul style="list-style-type:none;">
     <li>:station_name&nbsp;=&nbsp;<a href="https://sios-svalbard.org/node/421" target="_blank">"PYRAMIDEN"</a>&nbsp;;
     </li>
     <li>:<a href="https://www.wikidata.org/wiki/Property:P4136" target="_blank">wigos_identifier</a>&nbsp;=&nbsp;"0-20000-0-01024"&nbsp;;
     </li>
-    <li>:wmo_identifier&nbsp;=&nbsp;"01024"&nbsp;;
-    </li>
     <li>:<a href="http://def.scitools.org.uk/ACDD/date_created" target="_blank">date_created</a>&nbsp;=&nbsp;"2019-09-03T09:58:12.415858+00:00"&nbsp;;
+    </li>
+    <li>:<a href="http://def.scitools.org.uk/ACDD/geospatial_lat_max" target="_blank">geospatial_lat_max</a>&nbsp;=&nbsp;"78.655700"&nbsp;;
+    </li>
+    <li>:<a href="http://def.scitools.org.uk/ACDD/geospatial_lat_min" target="_blank">geospatial_lat_min</a>&nbsp;=&nbsp;"78.655700"&nbsp;;
+    </li>
+    <li>:<a href="http://def.scitools.org.uk/ACDD/geospatial_lon_max" target="_blank">geospatial_lon_max</a>&nbsp;=&nbsp;"16.360300"&nbsp;;
+    </li>
+    <li>:<a href="http://def.scitools.org.uk/ACDD/geospatial_lon_min" target="_blank">geospatial_lon_min</a>&nbsp;=&nbsp;"16.360300"&nbsp;;
     </li>
   </ul>
     </embed>
