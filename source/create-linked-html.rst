@@ -27,8 +27,9 @@ to read which has the URIs integrated as expressed in the alias file used.
 
 The alias for the netCDF names are based on Climate and Forecast convention terms (http://def.scitools.org.uk/CFTerms) and standard names (http://mmisw.org/ont/cf/parameter/) and on the ACDD convention names as defined by http://def.scitools.org.uk/ACDD. 
 
-.. code-block:: html
+.. raw:: html
 
+    <embed>
   <ul>
     <li>:station_name&nbsp;=&nbsp;<a href="https://sios-svalbard.org/node/421" target="_blank">"PYRAMIDEN"</a>&nbsp;;
     </li>
@@ -39,6 +40,6 @@ The alias for the netCDF names are based on Climate and Forecast convention term
     <li>:<a href="http://def.scitools.org.uk/ACDD/date_created" target="_blank">date_created</a>&nbsp;=&nbsp;"2019-09-03T09:58:12.415858+00:00"&nbsp;;
     </li>
   </ul>
-
+    </embed>
 
 Ad-hoc links can be created using this template, for example linking to webpages or landing pages.
