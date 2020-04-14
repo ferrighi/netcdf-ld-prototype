@@ -1,21 +1,19 @@
-@prefix ex: <http://example.org/> .
 @prefix metno: <http://metno.no/> .
 @prefix pidinst: <http://pidinst.org/> .
 @prefix prov: <http://www.w3.org/ns/prov#> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix sio: <http://semanticscience.org/resource/> .
-@prefix vcn: <http://vocab.nerc.ac.uk/collection/P07/current/> .
+@prefix vnc: <http://vocab.nerc.ac.uk/collection/P07/current/> .
 @prefix xml: <http://www.w3.org/XML/1998/namespace> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
-<http://metno.no/variables/sAdHv0Rav> a prov:Entity,
-        "vnc:CFSN0022"^^xsd:string ;
+<http://metno.no/variables/tRDAIWvDI> rdf:type prov:Entity, vnc:CFSN0022 ;
     rdfs:label "air pressure at sea level"^^xsd:string ;
-    prov:wasAttributedTo <http://metno.no/activities/TkWov4Ayd> ;
-    prov:wasGeneratedBy <http://metno.no/activities/TkWov4Ayd> .
+    prov:wasAttributedTo <http://metno.no/activities/RS5PXnhwX> ;
+    prov:wasGeneratedBy <http://metno.no/activities/RS5PXnhwX> .
 
-<http://metno.no/instrument/3AWLvqyv> a prov:Agent,
+<http://metno.no/instrument/oS5P275I> a prov:Agent,
         "pidinst:MeasuringInstrument"^^xsd:string ;
     pidinst:AlternateIdentifier "12345678"^^xsd:string ;
     pidinst:InstrumentType "barometer"^^xsd:string ;
@@ -23,11 +21,10 @@
     pidinst:alternateIdentifierType "serialNumber"^^xsd:string ;
     pidinst:manufacturerName "Do not know"^^xsd:string ;
     pidinst:modelName "Do not know"^^xsd:string ;
-    prov:wasAttributedTo <http://metno.no/activities/TkWov4Ayd> .
+    prov:wasAttributedTo <http://metno.no/activities/RS5PXnhwX> .
 
-<http://metno.no/activities/TkWov4Ayd> a prov:Activity,
-        "sio:SIO_001054"^^xsd:string ;
+<http://metno.no/activities/RS5PXnhwX> rdf:type prov:Activity, sio:SIO_001054 ;
     rdfs:label "measuring"^^xsd:string ;
     prov:startedAtTime "1996-01-01T03:00:00"^^xsd:dateTime ;
-    prov:wasAssociatedWith <http://metno.no/instrument/3AWLvqyv> .
+    prov:wasAssociatedWith <http://metno.no/instrument/oS5P275I> .
 

@@ -60,11 +60,12 @@ variables:
 		:wigos_identifier = "0-20000-0-01024" ;
 		:wmo_identifier = "01024" ;
 		:date_created = "2019-09-03T09:58:12.415858+00:00" ;
-		:Conventions = "ACDD-1.3,CF-1.6" ;
+		:Conventions = "ACDD-1.3 CF-1.6" ;
 		:title = "Observations from station PYRAMIDEN SN99880" ;
 		:institution = "Norwegian Meteorological Institute" ;
 		:source = "Meterological surface observation via frost.met.no" ;
-		:history = "2019-09-03T09:58:12.415858+00:00: frost write netcdf" ;
+		//:history = "2019-09-03T09:58:12.415858+00:00: frost write netcdf" ;
+		:history = "https://github.com/ferrighi/netcdf-ld-prototype/blob/master/files/data-provenance-sios.ttl" ; 
 		:references = "" ;
 		:acknowledgment = "frost.met.no" ;
 		:comment = "Observations based on data from frost.met.no" ;
