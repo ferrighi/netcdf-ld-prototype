@@ -12,6 +12,7 @@ Welcome to netcdf-ld-prototype's documentation!
 
    about
    install-bald
+   create-linked-html
 
 
 Indices and tables

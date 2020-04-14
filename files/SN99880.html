@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta charset="UTF-8" />
+        <title>netCDF-LD dump of SN99880.nc</title>
+        <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css" type="text/css" rel="stylesheet" />
+        <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap-theme.min.css" type="text/css" rel="stylesheet" />
+        <link href="https://fonts.googleapis.com/css?family=Roboto:100,300" type="text/css" rel="stylesheet" />
+        <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600" type="text/css" rel="stylesheet" />
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js" type="text/javascript"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js" type="text/javascript"></script>
+        <style>
+            body { font-family: "Open Sans", Helvetica, sans-serif; }
+            h1, h2, h3, h4, h5 { font-family: Roboto, Helvetica, Arial, sans-serif; font-weight: 300; font-style: normal; }
+            ul { list-style-type: none; }
+            table { table-layout: fixed; word-wrap: break-word; } th { background-color: #888; color: #fff; }
+        </style>
+    </head>
+    <body>
+        <p>netcdf SN99880.nc {</p>
+        <ul>
+            <li>
+            <ul class="collapse in" id="group_global">
+                <li>dimensions: // <a href="#global_dimensions_list" class="btn btn-default btn-xs" data-toggle="collapse" altText="&darr;">&uarr;</a>
+                    <ul class="collapse in" id="global_dimensions_list">
+                        <li>time&nbsp;=&nbsp;UNLIMITED ; // (59360 currently)</li>
+                        <li>station_id&nbsp;=&nbsp;7 ;</li>
+                    </ul>
+                </li>
+                <li>variables: // <a href="#global_variables_list" class="btn btn-default btn-xs" data-toggle="collapse" altText="&darr;">&uarr;</a>
+                    <ul class="collapse in" id="global_variables_list">
+                        <li>double&nbsp;time(time)&nbsp;; // <a href="#global_variable_time_attrs" class="btn btn-default btn-xs" data-toggle="collapse" altText="&darr;">&uarr;</a>
+                            <ul class="collapse in" id="global_variable_time_attrs">
+                                <li>:<a href="http://def.scitools.org.uk/CFTerms/standard_name" target="_blank">standard_name</a>&nbsp;=&nbsp;<a href="http://mmisw.org/ont/cf/parameter/time" target="_blank">"time"</a>&nbsp;;
+                                </li>
+                                <li>:<a href="http://def.scitools.org.uk/CFTerms/long_name" target="_blank">long_name</a>&nbsp;=&nbsp;"Time of measurement"&nbsp;;
+                                </li>
+                                <li>:<a href="http://def.scitools.org.uk/CFTerms/calendar" target="_blank">calendar</a>&nbsp;=&nbsp;"standard"&nbsp;;
+                                </li>
+                                <li>:<a href="http://def.scitools.org.uk/CFTerms/units" target="_blank">units</a>&nbsp;=&nbsp;<a href="https://ncics.org/portfolio/other-resources/udunits2/#seconds since 1970-01-01 00:00:00 UTC" target="_blank">"seconds since 1970-01-01 00:00:00 UTC"</a>&nbsp;;
+                                </li>
+                                <li>:<a href="http://def.scitools.org.uk/CFTerms/axis" target="_blank">axis</a>&nbsp;=&nbsp;"T"&nbsp;;
+                                </li>
+                            </ul>
+                        </li>
+                        <li>double&nbsp;latitude&nbsp;; // <a href="#global_variable_latitude_attrs" class="btn btn-default btn-xs" data-toggle="collapse" altText="&darr;">&uarr;</a>
+                            <ul class="collapse in" id="global_variable_latitude_attrs">
+                                <li>:<a href="http://def.scitools.org.uk/CFTerms/standard_name" target="_blank">standard_name</a>&nbsp;=&nbsp;<a href="http://mmisw.org/ont/cf/parameter/latitude" target="_blank">"latitude"</a>&nbsp;;
+                                </li>
+                                <li>:<a href="http://def.scitools.org.uk/CFTerms/long_name" target="_blank">long_name</a>&nbsp;=&nbsp;"latitude"&nbsp;;
+                                </li>
+                                <li>:<a href="http://def.scitools.org.uk/CFTerms/units" target="_blank">units</a>&nbsp;=&nbsp;<a href="https://ncics.org/portfolio/other-resources/udunits2/#degree_north" target="_blank">"degree_north"</a>&nbsp;;
+                                </li>
+                            </ul>
+                        </li>
+                        <li>double&nbsp;longitude&nbsp;; // <a href="#global_variable_longitude_attrs" class="btn btn-default btn-xs" data-toggle="collapse" altText="&darr;">&uarr;</a>
+                            <ul class="collapse in" id="global_variable_longitude_attrs">
+                                <li>:<a href="http://def.scitools.org.uk/CFTerms/standard_name" target="_blank">standard_name</a>&nbsp;=&nbsp;<a href="http://mmisw.org/ont/cf/parameter/longitude" target="_blank">"longitude"</a>&nbsp;;
+                                </li>
+                                <li>:<a href="http://def.scitools.org.uk/CFTerms/long_name" target="_blank">long_name</a>&nbsp;=&nbsp;"longitude"&nbsp;;
+                                </li>
+                                <li>:<a href="http://def.scitools.org.uk/CFTerms/units" target="_blank">units</a>&nbsp;=&nbsp;<a href="https://ncics.org/portfolio/other-resources/udunits2/#degree_east" target="_blank">"degree_east"</a>&nbsp;;
+                                </li>
+                            </ul>
+                        </li>
+                        <li>?&nbsp;station_id(station_id)&nbsp;; // <a href="#global_variable_station_id_attrs" class="btn btn-default btn-xs" data-toggle="collapse" altText="&darr;">&uarr;</a>
+                            <ul class="collapse in" id="global_variable_station_id_attrs">
+                                <li>:<a href="http://def.scitools.org.uk/CFTerms/cf_role" target="_blank">cf_role</a>&nbsp;=&nbsp;"timeseries_id"&nbsp;;
+                                </li>
+                            </ul>
+                        </li>
+                        <li>float&nbsp;air_temperature_2m(time)&nbsp;; // <a href="#global_variable_air_temperature_2m_attrs" class="btn btn-default btn-xs" data-toggle="collapse" altText="&darr;">&uarr;</a>
+                            <ul class="collapse in" id="global_variable_air_temperature_2m_attrs">
+                                <li>:<a href="http://def.scitools.org.uk/CFTerms/long_name" target="_blank">long_name</a>&nbsp;=&nbsp;"Air temperature"&nbsp;;
+                                </li>
+                                <li>:<a href="http://def.scitools.org.uk/ACDD/coverage_content_type" target="_blank">coverage_content_type</a>&nbsp;=&nbsp;"coordinate"&nbsp;;
+                                </li>
+                                <li>:<a href="http://def.scitools.org.uk/CFTerms/standard_name" target="_blank">standard_name</a>&nbsp;=&nbsp;<a href="http://mmisw.org/ont/cf/parameter/air_temperature" target="_blank">"air_temperature"</a>&nbsp;;
+                                </li>
+                                <li>:<a href="http://def.scitools.org.uk/CFTerms/units" target="_blank">units</a>&nbsp;=&nbsp;<a href="https://ncics.org/portfolio/other-resources/udunits2/#K" target="_blank">"K"</a>&nbsp;;
+                                </li>
+                            </ul>
+                        </li>
+                        <li>float&nbsp;air_pressure_at_sea_level(time)&nbsp;; // <a href="#global_variable_air_pressure_at_sea_level_attrs" class="btn btn-default btn-xs" data-toggle="collapse" altText="&darr;">&uarr;</a>
+                            <ul class="collapse in" id="global_variable_air_pressure_at_sea_level_attrs">
+                                <li>:<a href="http://def.scitools.org.uk/CFTerms/long_name" target="_blank">long_name</a>&nbsp;=&nbsp;"Air pressure at sea level"&nbsp;;
+                                </li>
+                                <li>:<a href="http://def.scitools.org.uk/ACDD/coverage_content_type" target="_blank">coverage_content_type</a>&nbsp;=&nbsp;"coordinate"&nbsp;;
+                                </li>
+                                <li>:<a href="http://def.scitools.org.uk/CFTerms/standard_name" target="_blank">standard_name</a>&nbsp;=&nbsp;<a href="http://mmisw.org/ont/cf/parameter/air_pressure_at_sea_level" target="_blank">"air_pressure_at_sea_level"</a>&nbsp;;
+                                </li>
+                                <li>:<a href="http://def.scitools.org.uk/CFTerms/units" target="_blank">units</a>&nbsp;=&nbsp;<a href="https://ncics.org/portfolio/other-resources/udunits2/#Pa" target="_blank">"Pa"</a>&nbsp;;
+                                </li>
+                            </ul>
+                        </li>
+                        <li>float&nbsp;air_pressure_at_sea_level_qnh(time)&nbsp;; // <a href="#global_variable_air_pressure_at_sea_level_qnh_attrs" class="btn btn-default btn-xs" data-toggle="collapse" altText="&darr;">&uarr;</a>
+                            <ul class="collapse in" id="global_variable_air_pressure_at_sea_level_qnh_attrs">
+                                <li>:<a href="http://def.scitools.org.uk/CFTerms/long_name" target="_blank">long_name</a>&nbsp;=&nbsp;"Air pressure (QNH)"&nbsp;;
+                                </li>
+                                <li>:<a href="http://def.scitools.org.uk/ACDD/coverage_content_type" target="_blank">coverage_content_type</a>&nbsp;=&nbsp;"coordinate"&nbsp;;
+                                </li>
+                                <li>:<a href="http://def.scitools.org.uk/CFTerms/standard_name" target="_blank">standard_name</a>&nbsp;=&nbsp;<a href="http://mmisw.org/ont/cf/parameter/air_pressure_at_sea_level_qnh" target="_blank">"air_pressure_at_sea_level_qnh"</a>&nbsp;;
+                                </li>
+                                <li>:<a href="http://def.scitools.org.uk/CFTerms/units" target="_blank">units</a>&nbsp;=&nbsp;<a href="https://ncics.org/portfolio/other-resources/udunits2/#hPa" target="_blank">"hPa"</a>&nbsp;;
+                                </li>
+                            </ul>
+                        </li>
+                        <li>float&nbsp;wind_speed_10m(time)&nbsp;; // <a href="#global_variable_wind_speed_10m_attrs" class="btn btn-default btn-xs" data-toggle="collapse" altText="&darr;">&uarr;</a>
+                            <ul class="collapse in" id="global_variable_wind_speed_10m_attrs">
+                                <li>:<a href="http://def.scitools.org.uk/CFTerms/long_name" target="_blank">long_name</a>&nbsp;=&nbsp;"Mean wind speed"&nbsp;;
+                                </li>
+                                <li>:<a href="http://def.scitools.org.uk/ACDD/coverage_content_type" target="_blank">coverage_content_type</a>&nbsp;=&nbsp;"coordinate"&nbsp;;
+                                </li>
+                                <li>:<a href="http://def.scitools.org.uk/CFTerms/standard_name" target="_blank">standard_name</a>&nbsp;=&nbsp;<a href="http://mmisw.org/ont/cf/parameter/wind_speed" target="_blank">"wind_speed"</a>&nbsp;;
+                                </li>
+                                <li>:<a href="http://def.scitools.org.uk/CFTerms/units" target="_blank">units</a>&nbsp;=&nbsp;<a href="https://ncics.org/portfolio/other-resources/udunits2/#m s-1" target="_blank">"m s-1"</a>&nbsp;;
+                                </li>
+                            </ul>
+                        </li>
+                        <li>float&nbsp;relative_humidity(time)&nbsp;; // <a href="#global_variable_relative_humidity_attrs" class="btn btn-default btn-xs" data-toggle="collapse" altText="&darr;">&uarr;</a>
+                            <ul class="collapse in" id="global_variable_relative_humidity_attrs">
+                                <li>:<a href="http://def.scitools.org.uk/CFTerms/long_name" target="_blank">long_name</a>&nbsp;=&nbsp;"Relative air humidity"&nbsp;;
+                                </li>
+                                <li>:<a href="http://def.scitools.org.uk/ACDD/coverage_content_type" target="_blank">coverage_content_type</a>&nbsp;=&nbsp;"coordinate"&nbsp;;
+                                </li>
+                                <li>:<a href="http://def.scitools.org.uk/CFTerms/standard_name" target="_blank">standard_name</a>&nbsp;=&nbsp;<a href="http://mmisw.org/ont/cf/parameter/relative_humidity" target="_blank">"relative_humidity"</a>&nbsp;;
+                                </li>
+                                <li>:<a href="http://def.scitools.org.uk/CFTerms/units" target="_blank">units</a>&nbsp;=&nbsp;<a href="https://ncics.org/portfolio/other-resources/udunits2/#1" target="_blank">"1"</a>&nbsp;;
+                                </li>
+                            </ul>
+                        </li>
+                        <li>float&nbsp;surface_air_pressure_2m(time)&nbsp;; // <a href="#global_variable_surface_air_pressure_2m_attrs" class="btn btn-default btn-xs" data-toggle="collapse" altText="&darr;">&uarr;</a>
+                            <ul class="collapse in" id="global_variable_surface_air_pressure_2m_attrs">
+                                <li>:<a href="http://def.scitools.org.uk/CFTerms/long_name" target="_blank">long_name</a>&nbsp;=&nbsp;"Air pressure at station level"&nbsp;;
+                                </li>
+                                <li>:<a href="http://def.scitools.org.uk/ACDD/coverage_content_type" target="_blank">coverage_content_type</a>&nbsp;=&nbsp;"coordinate"&nbsp;;
+                                </li>
+                                <li>:<a href="http://def.scitools.org.uk/CFTerms/standard_name" target="_blank">standard_name</a>&nbsp;=&nbsp;<a href="http://mmisw.org/ont/cf/parameter/surface_air_pressure" target="_blank">"surface_air_pressure"</a>&nbsp;;
+                                </li>
+                                <li>:<a href="http://def.scitools.org.uk/CFTerms/units" target="_blank">units</a>&nbsp;=&nbsp;<a href="https://ncics.org/portfolio/other-resources/udunits2/#Pa" target="_blank">"Pa"</a>&nbsp;;
+                                </li>
+                            </ul>
+                        </li>
+                        <li>float&nbsp;wind_from_direction_10m(time)&nbsp;; // <a href="#global_variable_wind_from_direction_10m_attrs" class="btn btn-default btn-xs" data-toggle="collapse" altText="&darr;">&uarr;</a>
+                            <ul class="collapse in" id="global_variable_wind_from_direction_10m_attrs">
+                                <li>:<a href="http://def.scitools.org.uk/CFTerms/long_name" target="_blank">long_name</a>&nbsp;=&nbsp;"Wind direction"&nbsp;;
+                                </li>
+                                <li>:<a href="http://def.scitools.org.uk/ACDD/coverage_content_type" target="_blank">coverage_content_type</a>&nbsp;=&nbsp;"coordinate"&nbsp;;
+                                </li>
+                                <li>:<a href="http://def.scitools.org.uk/CFTerms/standard_name" target="_blank">standard_name</a>&nbsp;=&nbsp;<a href="http://mmisw.org/ont/cf/parameter/wind_from_direction" target="_blank">"wind_from_direction"</a>&nbsp;;
+                                </li>
+                                <li>:<a href="http://def.scitools.org.uk/CFTerms/units" target="_blank">units</a>&nbsp;=&nbsp;<a href="https://ncics.org/portfolio/other-resources/udunits2/#degree" target="_blank">"degree"</a>&nbsp;;
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+                <li/>
+                <li>// global attributes:<a href="#global_attribute_list" class="btn btn-default btn-xs" data-toggle="collapse" altText="&darr;">&uarr;</a>
+                    <ul class="collapse in" id="global_attribute_list">
+                        <li>:station_name&nbsp;=&nbsp;<a href="https://sios-svalbard.org/node/421" target="_blank">"PYRAMIDEN"</a>&nbsp;;
+                        </li>
+                        <li>:<a href="https://www.wikidata.org/wiki/Property:P4136" target="_blank">wigos_identifier</a>&nbsp;=&nbsp;"0-20000-0-01024"&nbsp;;
+                        </li>
+                        <li>:wmo_identifier&nbsp;=&nbsp;"01024"&nbsp;;
+                        </li>
+                        <li>:<a href="http://def.scitools.org.uk/ACDD/date_created" target="_blank">date_created</a>&nbsp;=&nbsp;"2019-09-03T09:58:12.415858+00:00"&nbsp;;
+                        </li>
+                        <li>:<a href="http://def.scitools.org.uk/ACDD/Conventions" target="_blank">Conventions</a>&nbsp;=&nbsp;"ACDD-1.3,CF-1.6"&nbsp;;
+                        </li>
+                        <li>:<a href="http://def.scitools.org.uk/ACDD/title" target="_blank">title</a>&nbsp;=&nbsp;"Observations from station PYRAMIDEN SN99880"&nbsp;;
+                        </li>
+                        <li>:<a href="http://def.scitools.org.uk/ACDD/institution" target="_blank">institution</a>&nbsp;=&nbsp;<a href="https://www.met.no/" target="_blank">"Norwegian Meteorological Institute"</a>&nbsp;;
+                        </li>
+                        <li>:<a href="http://def.scitools.org.uk/ACDD/source" target="_blank">source</a>&nbsp;=&nbsp;"Meterological surface observation via frost.met.no"&nbsp;;
+                        </li>
+                        <li>:<a href="http://def.scitools.org.uk/ACDD/history" target="_blank">history</a>&nbsp;=&nbsp;"2019-09-03T09:58:12.415858+00:00: frost write netcdf"&nbsp;;
+                        </li>
+                        <li>:<a href="http://def.scitools.org.uk/ACDD/references" target="_blank">references</a>&nbsp;=&nbsp;""&nbsp;;
+                        </li>
+                        <li>:<a href="http://def.scitools.org.uk/ACDD/acknowledgement" target="_blank">acknowledgment</a>&nbsp;=&nbsp;"frost.met.no"&nbsp;;
+                        </li>
+                        <li>:<a href="http://def.scitools.org.uk/ACDD/comment" target="_blank">comment</a>&nbsp;=&nbsp;"Observations based on data from frost.met.no"&nbsp;;
+                        </li>
+                        <li>:<a href="http://def.scitools.org.uk/ACDD/creator_email" target="_blank">creator_email</a>&nbsp;=&nbsp;"observasjon@met.no"&nbsp;;
+                        </li>
+                        <li>:<a href="http://def.scitools.org.uk/ACDD/creator_name" target="_blank">creator_name</a>&nbsp;=&nbsp;<a href="https://www.met.no/" target="_blank">"Norwegian Meteorological Institute"</a>&nbsp;;
+                        </li>
+                        <li>:<a href="http://def.scitools.org.uk/ACDD/creator_url" target="_blank">creator_url</a>&nbsp;=&nbsp;<a href="https://met.no" target="_blank">"https://met.no"</a>&nbsp;;
+                        </li>
+                        <li>:<a href="http://def.scitools.org.uk/ACDD/geospatial_bounds" target="_blank">geospatial_bounds</a>&nbsp;=&nbsp;"POINT(16.360300 78.655700)"&nbsp;;
+                        </li>
+                        <li>:<a href="http://def.scitools.org.uk/ACDD/geospatial_bounds_crs" target="_blank">geospatial_bounds_crs</a>&nbsp;=&nbsp;"latlon"&nbsp;;
+                        </li>
+                        <li>:<a href="http://def.scitools.org.uk/ACDD/geospatial_lat_max" target="_blank">geospatial_lat_max</a>&nbsp;=&nbsp;"78.655700"&nbsp;;
+                        </li>
+                        <li>:<a href="http://def.scitools.org.uk/ACDD/geospatial_lat_min" target="_blank">geospatial_lat_min</a>&nbsp;=&nbsp;"78.655700"&nbsp;;
+                        </li>
+                        <li>:<a href="http://def.scitools.org.uk/ACDD/geospatial_lon_max" target="_blank">geospatial_lon_max</a>&nbsp;=&nbsp;"16.360300"&nbsp;;
+                        </li>
+                        <li>:<a href="http://def.scitools.org.uk/ACDD/geospatial_lon_min" target="_blank">geospatial_lon_min</a>&nbsp;=&nbsp;"16.360300"&nbsp;;
+                        </li>
+                        <li>:<a href="http://def.scitools.org.uk/ACDD/id" target="_blank">id</a>&nbsp;=&nbsp;"metno_obs_SN99880"&nbsp;;
+                        </li>
+                        <li>:<a href="http://def.scitools.org.uk/ACDD/keywords" target="_blank">keywords</a>&nbsp;=&nbsp;"observations"&nbsp;;
+                        </li>
+                        <li>:<a href="http://def.scitools.org.uk/ACDD/metadata_link" target="_blank">metadata_link</a>&nbsp;=&nbsp;<a href="https://oaipmh.met.no/oai/?verb=GetRecord&metadataPrefix=iso&identifier=SN99880" target="_blank">"https://oaipmh.met.no/oai/?verb=GetRecord&metadataPrefix=iso&identifier=SN99880"</a>&nbsp;;
+                        </li>
+                        <li>:<a href="http://def.scitools.org.uk/ACDD/summary" target="_blank">summary</a>&nbsp;=&nbsp;"Surface meteorological observations from the observation network operated by the Norwegian Meteorological Institute. Data are received and quality controlled using the local KVALOBS system. Observation stations are normally operated according to WMO requirements, although specifications are not followed on some remote stations for practical matters. Stations may have more parameters than reported in this dataset."&nbsp;;
+                        </li>
+                        <li>:<a href="http://def.scitools.org.uk/ACDD/time_coverage_start" target="_blank">time_coverage_start</a>&nbsp;=&nbsp;"2012-11-16T10:00:00"&nbsp;;
+                        </li>
+                        <li>:<a href="http://def.scitools.org.uk/ACDD/time_coverage_end" target="_blank">time_coverage_end</a>&nbsp;=&nbsp;"2019-09-03T10:00:00"&nbsp;;
+                        </li>
+                        <li>:<a href="http://def.scitools.org.uk/CFTerms/featureType" target="_blank">featureType</a>&nbsp;=&nbsp;"timeSeries"&nbsp;;
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+            </li>
+        </ul>
+        <p>}</p>
+        <script type='text/javascript'>
+            $(".btn").click(function () {
+                var curText = $(this).text();
+                
+                $(this).text($(this).attr("altText"));
+                $(this).attr("altText", curText);
+            });
+        </script>
+    </body>
+</html>

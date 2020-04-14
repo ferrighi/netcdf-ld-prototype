@@ -1,0 +1,173 @@
+{
+    "contexts" :
+    {
+  		"bald" : "http://binary-array-ld.net/latest/{}",
+  		"rdf"  : "http://www.w3.org/1999/02/22-rdf-syntax-ns#{}"
+    },
+    "names" :
+    {
+        "Conventions"                    : "http://def.scitools.org.uk/ACDD/{}",
+        "_FillValue"                     : "http://def.scitools.org.uk/NetCDF/{}",
+        "acknowledgement"                : "http://def.scitools.org.uk/ACDD/{}",
+        "acknowledgment"                 : "http://def.scitools.org.uk/ACDD/acknowledgement",
+        "add_offset"                     : "http://def.scitools.org.uk/CFTerms/{}",
+        "ancillary_variables"            : "http://def.scitools.org.uk/CFTerms/{}",
+        "axis"                           : "http://def.scitools.org.uk/CFTerms/{}",
+        "bounds"                         : "http://def.scitools.org.uk/CFTerms/{}",
+        "calendar"                       : "http://def.scitools.org.uk/CFTerms/{}",
+        "cdm_data_type"                  : "http://def.scitools.org.uk/ACDD/{}",
+        "cell_measures"                  : "http://def.scitools.org.uk/CFTerms/{}",
+        "cell_methods"                   : "http://def.scitools.org.uk/CFTerms/{}",
+        "cf_role"                        : "http://def.scitools.org.uk/CFTerms/{}",
+        "climatology"                    : "http://def.scitools.org.uk/CFTerms/{}",
+        "comment"                        : "http://def.scitools.org.uk/ACDD/{}",
+        "compress"                       : "http://def.scitools.org.uk/CFTerms/{}",
+        "contributor_name"               : "http://def.scitools.org.uk/ACDD/{}",
+        "contributor_role"               : "http://def.scitools.org.uk/ACDD/{}",
+        "coordinates"                    : "http://def.scitools.org.uk/CFTerms/{}",
+        "coverage_content_type"          : "http://def.scitools.org.uk/ACDD/{}",
+        "creator_email"                  : "http://def.scitools.org.uk/ACDD/{}",
+        "creator_institution"            : "http://def.scitools.org.uk/ACDD/{}",
+        "creator_name"                   : "http://def.scitools.org.uk/ACDD/{}",
+        "creator_type"                   : "http://def.scitools.org.uk/ACDD/{}",
+        "creator_url"                    : "http://def.scitools.org.uk/ACDD/{}",
+        "date_created"                   : "http://def.scitools.org.uk/ACDD/{}",
+        "date_issued"                    : "http://def.scitools.org.uk/ACDD/{}",
+        "date_metadata_modified"         : "http://def.scitools.org.uk/ACDD/{}",
+        "date_modified"                  : "http://def.scitools.org.uk/ACDD/{}",
+        "featureType"                    : "http://def.scitools.org.uk/CFTerms/{}",
+        "flag_masks"                     : "http://def.scitools.org.uk/CFTerms/{}",
+        "flag_meanings"                  : "http://def.scitools.org.uk/CFTerms/{}",
+        "flag_values"                    : "http://def.scitools.org.uk/CFTerms/{}",
+        "formula_terms"                  : "http://def.scitools.org.uk/CFTerms/{}",
+        "geospatial_bounds"              : "http://def.scitools.org.uk/ACDD/{}",
+        "geospatial_bounds_crs"          : "http://def.scitools.org.uk/ACDD/{}",
+        "geospatial_bounds_vertical_crs" : "http://def.scitools.org.uk/ACDD/{}",
+        "geospatial_lat_max"             : "http://def.scitools.org.uk/ACDD/{}",
+        "geospatial_lat_min"             : "http://def.scitools.org.uk/ACDD/{}",
+        "geospatial_lat_resolution"      : "http://def.scitools.org.uk/ACDD/{}",
+        "geospatial_lat_units"           : "http://def.scitools.org.uk/ACDD/{}",
+        "geospatial_lon_max"             : "http://def.scitools.org.uk/ACDD/{}",
+        "geospatial_lon_min"             : "http://def.scitools.org.uk/ACDD/{}",
+        "geospatial_lon_resolution"      : "http://def.scitools.org.uk/ACDD/{}",
+        "geospatial_lon_units"           : "http://def.scitools.org.uk/ACDD/{}",
+        "geospatial_vertical_max"        : "http://def.scitools.org.uk/ACDD/{}",
+        "geospatial_vertical_min"        : "http://def.scitools.org.uk/ACDD/{}",
+        "geospatial_vertical_positive"   : "http://def.scitools.org.uk/ACDD/{}",
+        "geospatial_vertical_resolution" : "http://def.scitools.org.uk/ACDD/{}",
+        "geospatial_vertical_units"      : "http://def.scitools.org.uk/ACDD/{}",
+        "grid_mapping"                   : "http://def.scitools.org.uk/CFTerms/{}",
+        "history"                        : "http://def.scitools.org.uk/ACDD/{}",
+        "id"                             : "http://def.scitools.org.uk/ACDD/{}",
+        "instance_dimension"             : "http://def.scitools.org.uk/CFTerms/{}",
+        "institution"                    : "http://def.scitools.org.uk/ACDD/{}",
+        "instrument"                     : "http://def.scitools.org.uk/ACDD/{}",
+        "instrument_vocabulary"          : "http://def.scitools.org.uk/ACDD/{}",
+        "keywords"                       : "http://def.scitools.org.uk/ACDD/{}",
+        "keywords_vocabulary"            : "http://def.scitools.org.uk/ACDD/{}",
+        "leap_month"                     : "http://def.scitools.org.uk/CFTerms/{}",
+        "leap_year"                      : "http://def.scitools.org.uk/CFTerms/{}",
+        "license"                        : "http://def.scitools.org.uk/ACDD/{}",
+        "long_name"                      : "http://def.scitools.org.uk/CFTerms/{}",
+        "metadata_link"                  : "http://def.scitools.org.uk/ACDD/{}",
+        "missing_value"                  : "http://def.scitools.org.uk/CFTerms/{}",
+        "month_lengths"                  : "http://def.scitools.org.uk/CFTerms/{}",
+        "naming_authority"               : "http://def.scitools.org.uk/ACDD/{}",
+        "platform"                       : "http://def.scitools.org.uk/ACDD/{}",
+        "platform_vocabulary"            : "http://def.scitools.org.uk/ACDD/{}",
+        "positive"                       : "http://def.scitools.org.uk/CFTerms/{}",
+        "processing_level"               : "http://def.scitools.org.uk/ACDD/{}",
+        "product_version"                : "http://def.scitools.org.uk/ACDD/{}",
+        "program"                        : "http://def.scitools.org.uk/ACDD/{}",
+        "project"                        : "http://def.scitools.org.uk/ACDD/{}",
+        "publisher_email"                : "http://def.scitools.org.uk/ACDD/{}",
+        "publisher_institution"          : "http://def.scitools.org.uk/ACDD/{}",
+        "publisher_name"                 : "http://def.scitools.org.uk/ACDD/{}",
+        "publisher_type"                 : "http://def.scitools.org.uk/ACDD/{}",
+        "publisher_url"                  : "http://def.scitools.org.uk/ACDD/{}",
+        "references"                     : "http://def.scitools.org.uk/ACDD/{}",
+        "sample_dimension"               : "http://def.scitools.org.uk/CFTerms/{}",
+        "scale_factor"                   : "http://def.scitools.org.uk/CFTerms/{}",
+        "source"                         : "http://def.scitools.org.uk/ACDD/{}",
+        "standard_error_multiplier"      : "http://def.scitools.org.uk/CFTerms/{}",
+        "standard_name"                  : "http://def.scitools.org.uk/CFTerms/{}",
+        "standard_name_vocabulary"       : "http://def.scitools.org.uk/ACDD/{}",
+        "summary"                        : "http://def.scitools.org.uk/ACDD/{}",
+        "time_coverage_duration"         : "http://def.scitools.org.uk/ACDD/{}",
+        "time_coverage_end"              : "http://def.scitools.org.uk/ACDD/{}",
+        "time_coverage_resolution"       : "http://def.scitools.org.uk/ACDD/{}",
+        "time_coverage_start"            : "http://def.scitools.org.uk/ACDD/{}",
+        "title"                          : "http://def.scitools.org.uk/ACDD/{}",
+        "units"                          : "http://def.scitools.org.uk/CFTerms/{}",
+        "valid_max"                      : "http://def.scitools.org.uk/NetCDF/{}",
+        "valid_min"                      : "http://def.scitools.org.uk/NetCDF/{}",
+        "valid_range"                    : "http://def.scitools.org.uk/NetCDF/{}",
+  	"SDN_ParameterDiscoveryCode"     : "http://vocab.nerc.ac.uk/isoCodelists/sdnCodelists/cdicsrCodeList.xml#{}",
+        "unit_id"                        : "http://qudt.org/1.1/schema/qudt#unit",
+        "medium_id"                      : "http://environment.data.gov.au/def/op#matrix",
+        "scaledQuantityKind_id"          : "http://environment.data.gov.au/def/op#propertyKind",
+        "substanceOrTaxon_id"            : "http://environment.data.gov.au/def/op#objectOfInterest",
+	"wigos_identifier"               : "https://www.wikidata.org/wiki/Property:P4136"
+    },
+    "values" :
+    {
+        "Conventions" :
+        {
+            "CF-1.6"   : "http://cfconventions.org/cf-conventions/v1.6.0/cf-conventions.html",
+            "ACDD-1.3" : "http://wiki.esipfed.org/index.php/Attribute_Convention_for_Data_Discovery_1-3"
+        },
+        "ancillary_variables" :
+        {
+            "*" : "#variable_{}"
+        },
+        "bounds" :
+        {
+            "*" : "#variable_{}"
+        },
+        "climatology" :
+        {
+            "*" : "#variable_{}"
+        },
+        "coordinates" :
+        {
+            "*" : "#variable_{}"
+        },
+        "grid_mapping" :
+        {
+            "*" : "#variable_{}"
+        },
+        "standard_name" :
+        {
+            "*" : "http://mmisw.org/ont/cf/parameter/{}"
+        },
+  		"SDN_ParameterDiscoveryCode" :
+        {
+		    "BactTaxaAbundSed" : "http://vocab.nerc.ac.uk/collection/P02/current/BAUC/"
+        },
+        "units" :
+        {
+            "*" : "https://ncics.org/portfolio/other-resources/udunits2/#{}"
+        },
+  		"creator_name" :
+        {
+		    "Norwegian Meteorological Institute" : "https://www.met.no/",
+		    "MET" : "https://www.met.no/",
+		    "METNO" : "https://www.met.no/",
+		    "Meteorologisk institutt" : "https://www.met.no/"
+        },
+  		"institution" :
+        {
+		    "Norwegian Meteorological Institute" : "https://www.met.no/",
+		    "MET" : "https://www.met.no/",
+		    "METNO" : "https://www.met.no/",
+		    "Meteorologisk institutt" : "https://www.met.no/"
+        },
+  		"station_name" :
+        {
+		    "KVITØYA" : "https://sios-svalbard.org/node/425",
+		    "BARENTSBURG" : "https://sios-svalbard.org/node/432",
+		    "HOPEN" : "https://sios-svalbard.org/node/439",
+		    "PYRAMIDEN" : "https://sios-svalbard.org/node/421"
+        }
+    }
+}
