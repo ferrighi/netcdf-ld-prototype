@@ -30,22 +30,20 @@ The alias for the netCDF names are based on Climate and Forecast convention term
 .. raw:: html
 
     <embed>
+    <div class="highlight">
   <ul style="list-style-type:none;">
-    <li>:station_name&nbsp;=&nbsp;<a href="https://sios-svalbard.org/node/421" target="_blank">"PYRAMIDEN"</a>&nbsp;;
+    <li style="list-style-type:none;>:station_name&nbsp;=&nbsp;<a href="https://sios-svalbard.org/node/421" target="_blank">"PYRAMIDEN"</a>&nbsp;;
     </li>
-    <li>:<a href="https://www.wikidata.org/wiki/Property:P4136" target="_blank">wigos_identifier</a>&nbsp;=&nbsp;"0-20000-0-01024"&nbsp;;
+    <li style="list-style-type:none;>:<a href="https://www.wikidata.org/wiki/Property:P4136" target="_blank">wigos_identifier</a>&nbsp;=&nbsp;"0-20000-0-01024"&nbsp;;
     </li>
-    <li>:<a href="http://def.scitools.org.uk/ACDD/date_created" target="_blank">date_created</a>&nbsp;=&nbsp;"2019-09-03T09:58:12.415858+00:00"&nbsp;;
+    <li style="list-style-type:none;>:<a href="http://def.scitools.org.uk/ACDD/date_created" target="_blank">date_created</a>&nbsp;=&nbsp;"2019-09-03T09:58:12.415858+00:00"&nbsp;;
     </li>
-    <li>:<a href="http://def.scitools.org.uk/ACDD/geospatial_lat_max" target="_blank">geospatial_lat_max</a>&nbsp;=&nbsp;"78.655700"&nbsp;;
+    <li style="list-style-type:none;>:<a href="http://def.scitools.org.uk/ACDD/geospatial_lat_max" target="_blank">geospatial_lat_max</a>&nbsp;=&nbsp;"78.655700"&nbsp;;
     </li>
-    <li>:<a href="http://def.scitools.org.uk/ACDD/geospatial_lat_min" target="_blank">geospatial_lat_min</a>&nbsp;=&nbsp;"78.655700"&nbsp;;
-    </li>
-    <li>:<a href="http://def.scitools.org.uk/ACDD/geospatial_lon_max" target="_blank">geospatial_lon_max</a>&nbsp;=&nbsp;"16.360300"&nbsp;;
-    </li>
-    <li>:<a href="http://def.scitools.org.uk/ACDD/geospatial_lon_min" target="_blank">geospatial_lon_min</a>&nbsp;=&nbsp;"16.360300"&nbsp;;
+    <li style="list-style-type:none;>:<a href="http://def.scitools.org.uk/ACDD/geospatial_lat_min" target="_blank">geospatial_lat_min</a>&nbsp;=&nbsp;"78.655700"&nbsp;;
     </li>
   </ul>
+  </div>
     </embed>
 
 Ad-hoc links can be created using this template, for example linking to webpages or landing pages.
