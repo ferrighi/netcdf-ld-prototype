@@ -18,7 +18,7 @@ Miniconda can be activated as follow:
 
 - download the installer at https://docs.conda.io/en/latest/miniconda.html
 - open a terminal/konsole 
-- run "bash Miniconda3-latest-Linux-x86_64.sh" for the command line 
+- run "bash Miniconda3-latest-Linux-x86_64.sh" from the command line 
 
 
 Create and activate conda environment
@@ -31,4 +31,4 @@ Create and activate conda environment
 - source activate ncld-bald
 - $ conda install --quiet --file requirements.txt
 
-The "source activate ncld-bald" should be activated everytime we use the bald library and scripts
+The "source activate ncld-bald" should be executed everytime we use the bald library and scripts.

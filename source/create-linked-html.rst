@@ -1,8 +1,8 @@
 Create linked html from netcdf
 """"""""""""""""""""""""""""""
 
-The bald library contains a tool, i.e. ncldDump.py which is used to build an html dump of a netCDF file with embedded URI, according to specified aliases.
-Here, we take as example the SN99880.nc file, in the files directory of the repository, together with the aliases for the URI in the sios.json file. 
+The bald library contains a tool, i.e. ncldDump.py which is used to build an html dump of a netCDF file with embedded URIs, according to specified aliases.
+Here, we take as example the SN99880.nc file, in the files directory of the repository, together with the aliases for the URIs in the sios.json file. 
 
 Detailed documentation can be found in the `ncldDump <https://github.com/binary-array-ld/bald/tree/master/ncldDump>`_ bald repository. 
 
@@ -32,15 +32,15 @@ The alias for the netCDF names are based on Climate and Forecast convention term
     <embed>
     <div class="highlight">
   <ul style="list-style-type:none;">
-    <li style="list-style-type:none;>:station_name&nbsp;=&nbsp;<a href="https://sios-svalbard.org/node/421" target="_blank">"PYRAMIDEN"</a>&nbsp;;
+    <li style="list-style-type:none;">:station_name&nbsp;=&nbsp;<a href="https://sios-svalbard.org/node/421" target="_blank">"PYRAMIDEN"</a>&nbsp;;
     </li>
-    <li style="list-style-type:none;>:<a href="https://www.wikidata.org/wiki/Property:P4136" target="_blank">wigos_identifier</a>&nbsp;=&nbsp;"0-20000-0-01024"&nbsp;;
+    <li style="list-style-type:none;">:<a href="https://www.wikidata.org/wiki/Property:P4136" target="_blank">wigos_identifier</a>&nbsp;=&nbsp;"0-20000-0-01024"&nbsp;;
     </li>
-    <li style="list-style-type:none;>:<a href="http://def.scitools.org.uk/ACDD/date_created" target="_blank">date_created</a>&nbsp;=&nbsp;"2019-09-03T09:58:12.415858+00:00"&nbsp;;
+    <li style="list-style-type:none;">:<a href="http://def.scitools.org.uk/ACDD/date_created" target="_blank">date_created</a>&nbsp;=&nbsp;"2019-09-03T09:58:12.415858+00:00"&nbsp;;
     </li>
-    <li style="list-style-type:none;>:<a href="http://def.scitools.org.uk/ACDD/geospatial_lat_max" target="_blank">geospatial_lat_max</a>&nbsp;=&nbsp;"78.655700"&nbsp;;
+    <li style="list-style-type:none;">:<a href="http://def.scitools.org.uk/ACDD/geospatial_lat_max" target="_blank">geospatial_lat_max</a>&nbsp;=&nbsp;"78.655700"&nbsp;;
     </li>
-    <li style="list-style-type:none;>:<a href="http://def.scitools.org.uk/ACDD/geospatial_lat_min" target="_blank">geospatial_lat_min</a>&nbsp;=&nbsp;"78.655700"&nbsp;;
+    <li style="list-style-type:none;">:<a href="http://def.scitools.org.uk/ACDD/geospatial_lat_min" target="_blank">geospatial_lat_min</a>&nbsp;=&nbsp;"78.655700"&nbsp;;
     </li>
   </ul>
   </div>

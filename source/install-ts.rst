@@ -21,6 +21,7 @@ and run the docker image on port 3030:
 To stop the docker check the status and stop the correct containter id: 
 
 .. code-block:: bash
+
  sudo docker stats
  sudo docker stop CONTAINER_ID
 
