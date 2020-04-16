@@ -25,10 +25,10 @@ Create and activate conda environment
 -------------------------------------
 
 - conda create -n ncld-bald
-- `conda config --add channels conda-forge`
-- conda config --add channels bioconda
-- conda config --set show_channel_urls True
+- conda config - -add channels conda-forge
+- conda config - -add channels bioconda
+- conda config - -set show_channel_urls True
 - source activate ncld-bald
-- $ conda install --quiet --file requirements.txt
+- $ conda install - -quiet - -file requirements.txt
 
 The "source activate ncld-bald" should be executed everytime we use the bald library and scripts.
