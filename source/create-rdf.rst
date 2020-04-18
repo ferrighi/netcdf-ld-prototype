@@ -6,8 +6,8 @@ Here, we take as example the SN99880.nc file, in the files directory of the repo
 
 Detailed documentation can be found in the `nc2rdf <https://github.com/binary-array-ld/bald/tree/master/nc2rdf>`_ bald repository. 
 
-Extract RDF from netCDF
-=======================
+How-to
+======
 
 First of all, activate the conda environment in a terminal:
 
