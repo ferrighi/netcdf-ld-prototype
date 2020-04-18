@@ -14,8 +14,6 @@ thus how to map global and variable attributes and related variables to unique U
 To achieve this, according to the netCDF-LD encoding standard mentioned above, there is a need to introduce the concepts of prefixes and aliases, and 
 their inclusing in netCDF files. 
 
-Prefix
-======
 In netCDF-LD, the prefix is a mechanism to encode explicit URIs from elements in the netCDF file. It is used in the same way as in many other contexts, just to compact the notation and 
 create a more handy way of working with URIs. It contains the name of the prefix followed by a double underscore,  
 
