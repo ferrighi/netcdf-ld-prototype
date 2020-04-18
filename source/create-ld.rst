@@ -15,7 +15,7 @@ To achieve this, according to the netCDF-LD encoding standard mentioned above, t
 their inclusing in netCDF files. 
 
 Prefix
-------
+======
 In netCDF-LD, the prefix is a mechanism to encode explicit URIs from elements in the netCDF file. It is used in the same way as in many other contexts, just to compact the notation and 
 create a more handy way of working with URIs. It contains the name of the prefix followed by a double underscore,  
 
@@ -53,7 +53,7 @@ Prefixes can then be used for attribute names and values of variabels, as well a
 Such netCDF files are now considered netCDF-LD and RDF statements can be extracted. 
 
 How-to
-======
+------
 
 To create a netCDF-LD from the example file, SN99880.nc, the *nc2ncld.py* script should be used together with the json mapping file sios-ld.json. You can first create a copy of your nc file: 
 
