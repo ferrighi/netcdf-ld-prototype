@@ -14,6 +14,7 @@ Welcome to netcdf-ld-prototype's documentation!
    install-bald
    install-ts
    create-linked-html
+   create-ld
    create-rdf
 
 

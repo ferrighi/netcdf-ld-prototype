@@ -10,6 +10,8 @@ This directory contains:
 - ncldDump_template.html, the template to build html from the original bald repository
 - data-provenance-sios.ttl, a template data-provenance file in RDF
 - SN99880.ttl, the RDF representation of the weather station dataset
+- output/SN99880-LD.nc output file from nc2ncld.py
+- output/SN99880-LD.ttl RDF turtle file
 
 # Visualization of files
 

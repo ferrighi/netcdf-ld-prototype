@@ -16,4 +16,4 @@ triple store is used as example, using the following repository:
 - https://github.com/stain/jena-docker
 
 Implementation should be done according to the above mentioned resources, while within this project we aim at describing a more practical how-to for 
-specific cases and purposes, in relation to the `current repository<https://github.com/ferrighi/netcdf-ld-prototype>`_
+specific cases and purposes, in relation to the `current repository <https://github.com/ferrighi/netcdf-ld-prototype>`_

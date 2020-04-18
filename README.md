@@ -9,3 +9,7 @@ The files directory contains examples of files to be used in this project.
 ## The source directory
 
 The source directory contains the files to be complied by Read the Docs.
+
+## The scripts directory
+
+The script transforming netcdf into netcdf-ld

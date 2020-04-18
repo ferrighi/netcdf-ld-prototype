@@ -15,8 +15,7 @@ First of all, activate the conda evironment in a terminal:
 
  source activate ncld-bald
 
-run the ncldDump.py from the bald repository you have installed on the selected netCDF file using the list of alias provied in the aliases.json or creating 
-your own as in sios.json: 
+run the ncldDump.py from the bald repository you have installed on the selected netCDF file using the list of alias provied in a json file, in this case the sios.json file: 
 
 .. code-block:: bash
 
@@ -25,7 +24,12 @@ your own as in sios.json:
 The result of this is an html file `SN99880.html <https://htmlpreview.github.io/?https://github.com/ferrighi/netcdf-ld-prototype/blob/master/files/SN99880.html>`_, for humans 
 to read which has the URIs integrated as expressed in the alias file used. 
 
-The alias for the netCDF names are based on Climate and Forecast convention terms (http://def.scitools.org.uk/CFTerms) and standard names (http://mmisw.org/ont/cf/parameter/) and on the ACDD convention names as defined by http://def.scitools.org.uk/ACDD. Attributes of the netCDF will look then like:
+The alias for the netCDF names are based on:
+- Climate and Forecast convention terms using http://def.scitools.org.uk/CFTerms
+- Climate and Forecaset standard names using http://mmisw.org/ont/cf/parameter/) 
+- ACDD convention names using  http://def.scitools.org.uk/ACDD. 
+  
+Using this approach, the attributes of the netCDF will look then like:
 
 .. raw:: html
 

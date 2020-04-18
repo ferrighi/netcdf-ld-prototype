@@ -31,4 +31,4 @@ Create and activate conda environment
 - source activate ncld-bald
 - $ conda install --quiet --file requirements.txt
 
-The "source activate ncld-bald" should be executed everytime we use the bald library and scripts.
+The "source activate ncld-bald" must be executed everytime we use the bald library and scripts.

@@ -25,3 +25,5 @@ To stop the docker check the status and stop the correct containter id:
  sudo docker stats
  sudo docker stop CONTAINER_ID
 
+
+The locally installed triple store is found just opening a browser at http://localhost:3030/
