@@ -53,17 +53,14 @@ Such netCDF files are now considered netCDF-LD and RDF statements can be extract
 How-to
 ------
 
-To create a netCDF-LD from the example file, SN99880.nc, the *nc2ncld.py* script should be used together with the json mapping file sios-ld.json. You can first create a copy of your nc file: 
+To create a netCDF-LD from the example file, SN99880.nc, the *nc2ncld.py* script should be used together with the json mapping file sios-ld.json:
 
-.. code-block:: bash
-
- cp SN99880.nc SN99880-LD.nc
   
 then run the script: 
 
 .. code-block:: bash
 
- path-to-script/nc2ncld.py SN99880-LC.nc sios-ld.json
+ path-to-script/nc2ncld.py SN99880.nc sios-ld.json SN99880-LD.nc
 
 This will add the prefixes to each element of the nc file which is mapped into a URI in the sios-ld.json file.
 
