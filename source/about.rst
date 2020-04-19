@@ -1,8 +1,8 @@
 About
 """""
 
-This documentation collects a how-to recipe for tranforming netCDF into netCDF-LD, with the purpose to add provenance information 
-as liked data inside the ACDD global attribute "history". This is achieved by means for the bald library: 
+This documentation collects a how-to recipe for tranforming netCDF into netCDF-LD, in order to generate RFD statements. This is achieved by means of 
+the bald library: 
 
 - https://github.com/binary-array-ld/bald/
 
