@@ -1,10 +1,11 @@
 About
 """""
 
-This documentation collects a how-to recipe for tranforming netCDF into netCDF-LD, in order to generate RFD statements. This is achieved by means of 
-the bald library: 
+This documentation collects a how-to recipe for tranforming netCDF into linked data, in order to generate RFD statements. This is achieved by means 
+of netCDF-LD and the bald library: 
 
-- https://github.com/binary-array-ld/bald/
+- https://github.com/binary-array-ld/netcdf-ld
+- https://github.com/binary-array-ld/bald
 
 and following the encoding standards for encoding linked data semantics into netCDF files and interpreting them as RDF graphs as described in:
 
