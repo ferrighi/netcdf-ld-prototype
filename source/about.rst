@@ -18,3 +18,5 @@ triple store is used as example, using the following repository:
 
 Implementation should be done according to the above mentioned resources, while within this project we aim at describing a more practical how-to for 
 specific cases and purposes, in relation to the `current repository <https://github.com/ferrighi/netcdf-ld-prototype>`_
+
+Additionally, an html dump with embedded URIs will be created, using the tools provieded in the *bald* library. 

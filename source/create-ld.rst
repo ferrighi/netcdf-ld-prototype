@@ -1,4 +1,4 @@
-Create netCDF-LD from netcdf
+Create netCDF-LD from netCDF
 ****************************
 
 In this project the OGC encoding for netCDF-LD is used following the documentation provided at:

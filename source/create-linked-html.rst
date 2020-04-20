@@ -4,7 +4,7 @@ Create linked html from netcdf
 The bald library contains a tool, i.e. ncldDump.py which is used to build an html dump of a netCDF file with embedded URIs, according to specified aliases.
 Here, we take as example the SN99880.nc file, in the files directory of the repository, together with the aliases for the URIs in the sios.json file. 
 
-Detailed documentation can be found in the `ncldDump <https://github.com/binary-array-ld/bald/tree/master/ncldDump>`_ bald repository. 
+Detailed documentation on this tool can be found in the `ncldDump <https://github.com/binary-array-ld/bald/tree/master/ncldDump>`_ bald repository. 
 
 
 How-to
