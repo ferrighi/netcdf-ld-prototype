@@ -21,10 +21,11 @@ run the ncldDump.py from the bald repository you have installed on the selected 
 
  python3 PATH-TO-LIBRARY/binary-array-ld/bald/ncldDump/ncldDump.py SN99880.nc -a sios.json -o SN99880.html
 
-The result of this is an html file `SN99880.html <https://htmlpreview.github.io/?https://github.com/ferrighi/netcdf-ld-prototype/blob/master/files/SN99880.html>`_, for humans 
+The result of this is an html file `SN99880.html <https://htmlpreview.github.io/?https://github.com/ferrighi/netcdf-ld-prototype/blob/master/files/output/SN99880.html>`_, for humans 
 to read which has the URIs integrated as expressed in the alias file used. 
 
 The alias for the netCDF names are based on:
+
 - Climate and Forecast convention terms using http://def.scitools.org.uk/CFTerms
 - Climate and Forecaset standard names using http://mmisw.org/ont/cf/parameter/) 
 - ACDD convention names using  http://def.scitools.org.uk/ACDD. 
