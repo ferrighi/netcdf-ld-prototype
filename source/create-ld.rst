@@ -33,7 +33,7 @@ A list of prefix to be used within the netCDF file can be collected within a *pr
                 prefix_list:cf__ = "http://def.scitools.org.uk/CFTerms/" ;
                 prefix_list:nc__ = "http://def.scitools.org.uk/NetCDF/" ;
                 prefix_list:geo__ = "http://www.opengis.net/ont/geosparql#" ;
-                prefix_list:nc__ = "http://def.scitools.org.uk/NetCDF/" ;
+                prefix_list:cfsn__ = "http://mmisw.org/ont/cf/parameter/" ;
 
  // global attributes:
         :bald__isPrefixedBy = "prefix_list" ;
