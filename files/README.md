@@ -1,4 +1,4 @@
-# File description
+# Files description
 
 This directory contains: 
 
@@ -10,6 +10,7 @@ This directory contains:
 - data-provenance-sios.ttl, a template data-provenance file in RDF
 - SN99880.ttl, the RDF representation of the weather station dataset
 - output/SN99880-LD.nc output file from nc2ncld.py
+- output/SN99880-LD.cdl cdl file containing ncdump of SN99880-LD.nc headers
 - output/SN99880-LD.ttl RDF turtle file
 - output/SN99880.html, the liked-based html as produced by this project and described in the documentation
 
