@@ -1,4 +1,4 @@
-Create RDF from netcdf
+Create RDF from netCDF
 **********************
 
 The bald library contains a tool, i.e. nc2rdf.py which is used to build RDF triples from a netCDF or a CDL file, using different serialization formats, such as N3, Turtle, or RDF-XML. 

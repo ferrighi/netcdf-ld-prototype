@@ -1,4 +1,4 @@
-Create linked html from netcdf
+Create linked html from netCDF
 """"""""""""""""""""""""""""""
 
 The bald library contains a tool, i.e. ncldDump.py which is used to build an html dump of a netCDF file with embedded URIs, according to specified aliases.
